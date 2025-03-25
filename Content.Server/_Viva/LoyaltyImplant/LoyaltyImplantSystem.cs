@@ -4,6 +4,7 @@ using Content.Server._Impstation.Thaven;
 using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Dataset;
 using Content.Shared.Implants;
+using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Toolshed.TypeParsers;
 
@@ -19,6 +20,7 @@ public sealed class LoyaltyImplantSysten : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<LoyaltyImplantComponent, ImplantImplantedEvent>(OnImplant);
+        SubscribeLocalEvent<LoyaltyImplantComponent, EntGotRemovedFromContainerMessage>(OnRemove);
     }
 
     private void OnImplant(EntityUid uid, LoyaltyImplantComponent component, ImplantImplantedEvent args)
@@ -26,7 +28,8 @@ public sealed class LoyaltyImplantSysten : EntitySystem
         if (args.Implanted == null)
             return;
 
-         var target = args.Implanted.Value;
+        var target = args.Implanted.Value;
+        component.Target = target;
 
         if (args.Implanted != null)
         {
@@ -37,5 +40,13 @@ public sealed class LoyaltyImplantSysten : EntitySystem
             _moodSystem.TryAddRandomMood((target, moodComp), LoyaltyImplantMoods);
             Dirty(target, moodComp);
         }
+    }
+
+    private void OnRemove(EntityUid uid, LoyaltyImplantComponent component, EntGotRemovedFromContainerMessage args)
+    {
+        component.Target = args.Container.Owner;
+
+        if (HasComp<ThavenMoodsComponent>(args.Container.Owner))
+            RemComp<ThavenMoodsComponent>(args.Container.Owner);
     }
 }

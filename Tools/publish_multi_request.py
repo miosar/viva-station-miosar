@@ -16,7 +16,7 @@ RELEASE_DIR = "release"
 # Forks should change these to publish to their own infrastructure.
 #
 ROBUST_CDN_URL = "http://152.53.89.23:5443/"
-FORK_ID = "fork"
+FORK_ID = "viva"
 
 def main():
     parser = argparse.ArgumentParser()

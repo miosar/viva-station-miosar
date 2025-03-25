@@ -1,0 +1,22 @@
+- type: dataset
+  id: LoyaltyImplantMoods
+  values:
+    - LoyalLoyaltyImplantMood
+    - FlawedLoyaltyImplantMood
+    - BrokenLoyaltyImplantMood 
+
+
+- type: thavenMood
+  id: LoyalLoyaltyImplantMood
+  moodName: Loyalty
+  moodDesc: You must follow all orders, to the word and intent, from those higher ranked. You must work to increase nanotrasen profit. You wish to bring glory to Nanotrasen
+
+- type: thavenMood
+  id: FlawedLoyaltyImplantMood
+  moodName: Flawed Loyalty
+  moodDesc: The implant didnt fully take. You must follow all orders from those of a higher rank to the letter. The orders intention does not matter.
+
+- type: thavenMood
+  id: BrokenLoyaltyImplantMood
+  moodName: Broken Loyalty
+  moodDesc: The implant didnt stick. Your free. Dont let them know that.

@@ -15,8 +15,8 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://build.funkystation.org/"
-FORK_ID = "funkystation"
+ROBUST_CDN_URL = "http://152.53.89.23:5443/"
+FORK_ID = "viva-fork-station"
 
 def main():
     parser = argparse.ArgumentParser()

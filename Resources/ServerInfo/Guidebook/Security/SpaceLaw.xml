@@ -6,10 +6,8 @@
 
   Prisoners still have certain rights that must be upheld by law enforcement:
 
-  - Prisoners must be granted adequate medical care. They should also be provided psychiatric and spiritual counselling if requested.
-  - Prisoners must be allowed access to communications equipment (Radios) so long as they are not abused.
-  - Prisoners must be granted clothing, food, water, shelter and safety. If the brig is no longer safe, confinement must be established in another location.
-  - Prisoners must be given access to legal counsel during an interrogation if requested and available.
+  - Prisoners must be granted adequate medical care.
+  - Prisoners must be granted clothing, food, water, and shelter.
   - Prisoners must be given their shift mandated PDA after confinement has finished. Unless there is solid proof of PDA tampering, in which case the PDA is to be secured and replaced with a fresh one.
   - Prisoners must be granted freedom of movement, and should not be restrained with handcuffs or other devices after incarceration unless there is an undue risk to life and limb. Similarly, any prisoners held for extended or permanent confinement should be held in the communal brig, and should not be confined to a solitary cell unless they pose a risk to life and limb.
 
@@ -21,15 +19,15 @@
 
   ## Implantation
 
-  Any prisoner in custody can be subjected to implantation or implant removal procedures, so long as it's within reason. The process of adding an implant should not prolong the detainees sentence, meaning you can not hold them longer to administer the implant, unless stated otherwise. A prisoner can still receive implantation procedures without meeting the circumstances if they give their clear permission.
+  Any prisoner in custody can be subjected to implantation or implant removal procedures. The process of adding an implant should not prolong the detainees sentence, meaning you can not hold them longer to administer the implant, unless stated otherwise.
 
-  [bold]Mind Shields[/bold]: Mind Shields can be administered to any inmate who is clearly brainwashed. Unlike standard implantation, you may hold a prisoner until they are issued a Mind Shield, so long as it's done in a timely fashion. If a suspect refuses to cooperate or the implant fails to function they can be charged with Refusal of Mental Shielding.
+  [bold]Loyalty Implants[/bold]: If a type III crime or above is comitted, Loyalty Implants are authorised. For type IV, it is reccomended. For type V, it is mandatory. If a suspect refuses to cooperate or the implant fails to function they can be charged with Refusal of Implantation.
 
-  A crewmate can refuse a Mind Shield if they are not imprisoned for committing a crime.
+  Loyalty Implants are permitted below type III crimes with permission by both the captain and central command, barring situations where command does not have time to contact central command.
 
   # Removal
 
-  A suspect can be forced to receive implant removal if there is strong reasonable proof that they have been implanted, such as an officer witnessing them use an implantation device or their biological information being found on a discarded injector. Unlike the implantation procedure a prisoner can have their sentence entirely delayed or extended until they comply with the procedure, as long as security are actively making attempts to preform it. Akin to implanting, if an inmate gives their clear permission, implant removal can proceed without proof.
+  A suspect can be forced to receive implant removal if permitted by either HoS or Captain.
 
   ## Sentencing
   All sentencing is to primarily be handled by the Warden, if no Warden is available the HoS is to take over that duty, if there's no HoS it falls onto the highest ranking member of Security.
@@ -40,24 +38,24 @@
 
   [bold]Stackable Crimes:[/bold] Crimes are to be considered 'stackable' in the sense that if you charge someone with two or more different crimes, you should combine the times you would give them for each crime.
 
-  [bold]Executions:[/bold] Executions may be authorized by the Captain / acting Captain after a trial has been conducted. Executions may also be approved by CentComm, following formal contact.
+  [bold]Executions:[/bold] Executions may be authorized by the Captain / acting Captain. Executions may also be approved by CentComm, following formal contact.
 
-  
-  # Repeat Offenses 
-  Offenses repeated again after having been detained for the same crime can have more time added to the recommended maximum sentencing. The general guideline is as follows: 
+
+  # Repeat Offenses
+  Offenses repeated again after having been detained for the same crime can have more time added to the recommended maximum sentencing. The general guideline is as follows:
 
   ## Second Offenses
-  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 1.5x for the same crime only.
+  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 2x.
 
   ## Third Offenses
-  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 2.5x for the same crime only.
+  [bold]Recommended Increase:[/bold] Recommended to increase sentencing time by 3x alongside a loyalty implant.
 
   ## Further Repeat Offenders
   If the detainee as committed the same crime more than three times in separate occasions, it will be up to the Warden's, or in absence of a Warden, the highest ranking Security Member's discretion on whether they should be put into the Permanent Brig.
 
   [bold]If brigtime goes above 20 minutes, perma is highly recommended.[/bold]
 
-  
+
   # Crimes
 
   # I Degree
@@ -103,6 +101,14 @@
   [bold]Recommended Maximum Punishment:[/bold] 2:00
 
   [bold]Notes:[/bold] Painting graffiti, smashing bar glasses, and cracking internal windows is vandalism, breaking a window into space or secure areas is not.
+
+  ## Wasting Company Time
+
+  [bold]Description[/bold]: To idle while work needs to be done
+
+  [bold]Recommended Maxiumum Punishment[/bold]: 2:00
+
+  [bold]Notes[/bold]: Should usually be issued after a warning.
 
 
 
@@ -223,6 +229,14 @@
   [bold]Recommended Maximum Punishment:[/bold] 5:00
 
   [bold]Notes:[/bold] This time should be added on top of a prisoners current brig time. While rare, this charge can be bumped to permanent brig if the suspect has attempted to escape from or assist another in escaping from the brig multiple times.
+
+  ## SoP Violation
+
+  [bold]Description[/bold]: To violate a departments standard operating procedure.
+
+  [bold]Recommended Maximum Punishment:[/bold] 5:00
+
+  [bold]Notes:[/bold] Loyalty implant recommended if this offense is repeated.
 
 
 

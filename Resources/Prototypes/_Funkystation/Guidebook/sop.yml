@@ -1,4 +1,4 @@
-﻿- type: guideEntry
+- type: guideEntry
   id: SOP101
   name: SOP 101
   text: "/ServerInfo/Funkystation/Guidebook/SOP/SOP101.xml"
@@ -13,6 +13,7 @@
   - AlertLevelsSOP
   - EnemiesOfTheCorporation
 
+  #Edited on Viva
 - type: guideEntry
   id: CommandSOP
   name: guide-entry-command-sop
@@ -31,6 +32,7 @@
   - DeltaAlertSOP
   - GammaAlertSOP
 
+#edited on viva
 - type: guideEntry
   id: SecuritySOP
   name: guide-entry-security-sop

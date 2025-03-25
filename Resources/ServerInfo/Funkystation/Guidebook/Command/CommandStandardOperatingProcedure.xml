@@ -1,25 +1,21 @@
-﻿<Document>
+<Document>
   Here is a list of all the SOP documents for command.
 
   # Captain SOP
 
-  [bold]1.[/bold] The Captain is not permitted to perform regular Security Duty. However, they may still assist Security if they are understaffed, or if they see a crime being committed. However, the Captain is not permitted to take items from the Armory under normal circumstances, unless authorized by the Head of Security. In addition, the Captain may not requisition weaponry for themselves from Cargo and/or Science, unless there's an immediate threat to station and/or crew;
+  [bold]1.[/bold] If a Department lacks a Head of Staff, the Captain should make reasonable efforts to appoint an Acting Head of Staff, if there are available personnel to fill the position;
 
-  [bold]2.[/bold] If a Department lacks a Head of Staff, the Captain should make reasonable efforts to appoint an Acting Head of Staff, if there are available personnel to fill the position;
+  [bold]2.[/bold] The Captain is to ensure that Space Law is being correctly applied. This should be done in cooperation with the Head of Security;
 
-  [bold]3.[/bold] The Captain is to ensure that Space Law is being correctly applied. This should be done in cooperation with the Head of Security;
+  [bold]3.[/bold] The Captain is not to leave the Station unless given specific permission by Central Command, or it happens to be the end of the shift. To do so is to be considered abandoning their posts and is grounds for termination;
 
-  [bold]4.[/bold] The Captain is not to leave the Station unless given specific permission by Central Command, or it happens to be the end of the shift. To do so is to be considered abandoning their posts and is grounds for termination;
+  [bold]4.[/bold] The Captain must keep the Nuclear Authentication Disk on their person at all times or failing that, in the possession of the Head of Security or Blueshield;
 
-  [bold]5.[/bold] The Captain must keep the Nuclear Authentication Disk on their person at all times or failing that, in the possession of the Head of Security or Blueshield;
+  [bold]5.[/bold] The Captain, despite being in charge of the Station, is not separate from NanoTrasen. Any attempts to disregard general company policy are to be considered an instant condition for contract termination;
 
-  [bold]6.[/bold] The Captain is to attempt to resolve every issue that arises in Command locally before contacting Central Command;
+  [bold]6.[/bold] The Captain may only promote personnel to an Acting Head of Staff position if there is no assigned Head of Staff associated with the Department. The Acting Head of Staff must be a member of the Department they are to lead. See below for more information on Chain of Command;
 
-  [bold]7.[/bold] The Captain, despite being in charge of the Station, is not separate from NanoTrasen. Any attempts to disregard general company policy are to be considered an instant condition for contract termination;
-
-  [bold]8.[/bold] The Captain may only promote personnel to an Acting Head of Staff position if there is no assigned Head of Staff associated with the Department. The Acting Head of Staff must be a member of the Department they are to lead. See below for more information on Chain of Command;
-
-  [bold]9.[/bold] The Captain may not fire any Head of Staff without reasonable justification (ie, incompetency, criminal activity, or otherwise any action that endangers/compromises the station and/or crew). The Captain may not fire any Central Command VIPs (ie, Blueshield, NanoTrasen Representative) without permission from Central Command, unless they are blatantly acting against the well-being and safety of the crew and station. The Captain must also follow HoP SOP point 5.
+  [bold]7.[/bold] The Captain may not fire any Central Command VIPs (ie, Blueshield, NanoTrasen Representative) without permission from Central Command, unless they are blatantly acting against the well-being and safety of the crew and station. The Captain must also follow HoP SOP point 5.
 
   # Head of Personnel SOP
 
@@ -37,7 +33,7 @@
 
   [bold]7.[/bold] The Head of Personnel may not leave their office unmanned if there are personnel waiting in line. Failure to respond to personnel with a legitimate request within ten (10) minutes, either via radio or in person is to be considered a breach of Standard Operating Procedure;
 
-  [bold]8.[/bold] The Head of Personnel is not permitted to perform Security duty. The Head of Personnel is permitted to carry a Disabler for self-defense only.
+  [bold]8.[/bold] The Head of Personnel is not permitted to perform Security duty. However, the HoP is permitted to carry lethal weapons for self defense.
 
   # NanoTrasen Representative SOP
 
@@ -47,7 +43,7 @@
 
   [bold]3.[/bold] The NanoTrasen Representative must, together with the Head of Security, ensure that Space Law is being followed and correctly applied;
 
-  [bold]4.[/bold] The NanoTrasen Representative may not threaten the use of a fax in order to gain leverage over any personnel, up to and including Command. In addition, they may not threaten to fire or have Central Command fire anyone, unless they actually possess a demotion note;
+  [bold]4.[/bold] The NanoTrasen Representative may not threaten the use of a fax in order to gain leverage over any personnel, up to and including Command.
 
   [bold]5.[/bold] The NanoTrasen Representative is permitted to carry their flash and a blade-cane, or a stun baton if the blade-cane is lost.
 
@@ -58,8 +54,6 @@
   [bold]2.[/bold] The Blueshield is to put the lives of Command over those of any other personnel, the Blueshield included. Their continued well-being is the Blueshield's top priority. This includes applying basic first aid and making sure they are revived if killed;
 
   [bold]3.[/bold] The Blueshield is to protect the lives of Command personnel, not follow their orders to a fault. The Blueshield is not to interfere with legal demotions or arrests. To do so is to place themselves under the Special Modifier Aiding and Abetting;
-
-  [bold]4.[/bold] The Blueshield is not to apply Lethal Force unless there is a clear and present danger to their life, or to the life of a member of Command and the assailant cannot be non-lethally detained.
 
   # If you need to deviate,
 

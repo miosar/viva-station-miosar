@@ -1,4 +1,4 @@
-﻿- type: guideEntry
+- type: guideEntry
   id: Security
   name: guide-entry-security
   text: "/ServerInfo/Guidebook/Security/Security.xml"
@@ -6,8 +6,8 @@
   - Forensics
   - Defusal
   - CriminalRecords
-  - RulesOfConduct # Funkystation
-  - SpaceLaw # Goobstation
+  - RulesOfConduct # Funkystation base, edited by Viva
+  - SpaceLaw # Goobstation base, edited by Viva
 
 - type: guideEntry
   id: Forensics

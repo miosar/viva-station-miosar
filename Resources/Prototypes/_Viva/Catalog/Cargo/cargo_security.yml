@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: SecurityArmor
+  icon:
+    sprite: Objects/Specific/Medical/implanter.rsi
+    state: icon
+  product: CrateSecurityLoyaltyImplants
+  cost: 4000
+  category: cargoproduct-category-name-security
+  group: market

@@ -2054,3 +2054,52 @@ Entries:
       message: Ethylredoxrazine is now 10x as effective at clearing up drunkenness
   id: 260
   time: '2025-03-23T20:47:16.0000000+00:00'
+- author: ' AfterLite, correspond'
+  changes:
+    - type: Tweak
+      message: Entropy is no longer itemized, and is now a cultist-innate resource.
+    - type: Tweak
+      message: >-
+        Lone Ascendant's Dendrite is no longer edible; try using it as a liver
+        instead. 
+  id: 261
+  time: '2025-03-24T19:13:41.0000000+00:00'
+- author: misterghast
+  changes:
+    - type: Add
+      message: >-
+        Added the Secret Director/Game Directors game mode, which picks a random
+        game director on start, like Secret but for Game Directors.
+    - type: Add
+      message: >-
+        Added more granularity for Game Director presets in terms of roundstart
+        antagonists. They can now differentiate between extreme, normal, and
+        calm types of roundstart antagonists.
+    - type: Tweak
+      message: >-
+        Midround Blob and Wizard now only spawn in very peaceful situations
+        during game director rounds.
+    - type: Tweak
+      message: >-
+        Midround Changelings during game director rounds now take the form of
+        random infections rather than randomly converting player characters into
+        changelings instantly. 
+  id: 262
+  time: '2025-03-24T20:20:00.0000000+00:00'
+- author: Goomson
+  changes:
+    - type: Add
+      message: >-
+        Added unique previously unlisted chemical reactions to in game
+        guidebook!
+  id: 263
+  time: '2025-03-26T01:46:02.0000000+00:00'
+- author: SpaceCat-Chan
+  changes:
+    - type: Add
+      message: >-
+        Added an Atmos Borg module containing an RPD and Holofan Projector,
+        which can be researched by science and then constructed in the exosuit
+        fabricator.
+  id: 264
+  time: '2025-03-26T01:46:35.0000000+00:00'

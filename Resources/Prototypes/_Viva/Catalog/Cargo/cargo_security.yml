@@ -1,5 +1,5 @@
 - type: cargoProduct
-  id: SecurityArmor
+  id: LoyaltyImplants
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
     state: icon

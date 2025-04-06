@@ -10,6 +10,7 @@
   - ServiceSOP
   - EngineeringSOP
   - CargoSOP
+  - ScienceSOP
   - AlertLevelsSOP
   - EnemiesOfTheCorporation
 
@@ -31,6 +32,7 @@
   - VioletAlertSOP
   - DeltaAlertSOP
   - GammaAlertSOP
+  - OctarineAlertSOP
 
 #edited on viva
 - type: guideEntry
@@ -67,6 +69,11 @@
   id: ServiceSOP
   name: guide-entry-service-sop
   text: "/ServerInfo/Funkystation/Guidebook/Service/ServiceStandardOperatingProcedure.xml"
+
+- type: guideEntry
+  id: ScienceSOP
+  name: guide-entry-science-sop
+  text: "/ServerInfo/Funkystation/Guidebook/Science/ScienceStandardOperatingProcedure.xml"
 
 - type: guideEntry
   id: GreenAlertSOP

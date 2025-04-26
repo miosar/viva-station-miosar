@@ -1,0 +1,5 @@
+- type: damageType
+  id: Temporal
+  name: Temporal
+  armorCoefficientPrice: 1
+  armorFlatPrice: 1

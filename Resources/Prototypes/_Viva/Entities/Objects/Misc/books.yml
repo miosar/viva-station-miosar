@@ -30,6 +30,7 @@
       color: "#f7d61a"
   - type: GuideHelp
     guides:
+    - CommandSOPClearanceLevel1
     - CommandSOPClearanceLevel2
 
 - type: entity
@@ -47,4 +48,6 @@
       color: "#f7d61a"
   - type: GuideHelp
     guides:
+    - CommandSOPClearanceLevel1
+    - CommandSOPClearanceLevel2
     - CommandSOPClearanceLevel3

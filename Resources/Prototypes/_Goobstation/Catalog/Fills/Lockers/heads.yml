@@ -13,6 +13,7 @@
     - id: Paper
       amount: !type:ConstantNumberSelector
         value: 5
+    - id: BookClearance3
 
 - type: entity
   id: LockerNanorepFilled
@@ -41,6 +42,7 @@
     - id: ClothingOuterHardsuitBlueshield
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
+    - id: BookClearance3
 
 - type: entity
   id: LockerBlueshieldOfficerFilled

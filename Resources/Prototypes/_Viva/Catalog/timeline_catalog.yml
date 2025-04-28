@@ -1,0 +1,9 @@
+- type: listing
+  id: TimelineNukeDisk
+  name: nuke disk
+  description: pull a nuke disk from a parallel timeline
+  productEntity: NukeDisk
+  cost:
+    Timecrystal: 1
+  categories:
+  - ParallelItems

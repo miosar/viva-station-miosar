@@ -440,3 +440,31 @@
   ruleEntry: true
   priority: 100
   text: "/ServerInfo/Guidebook/ServerRules/BanDurations.xml"
+
+- type: guideEntry
+  id: RuleViva1
+  name: guide-entry-rules-viva1
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva1.xml"
+
+- type: guideEntry
+  id: RuleViva2
+  name: guide-entry-rules-viva2
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva2.xml"
+
+- type: guideEntry
+  id: RuleViva3
+  name: guide-entry-rules-viva3
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva3.xml"
+
+- type: guideEntry
+  id: RuleViva4
+  name: guide-entry-rules-viva4
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva4.xml"

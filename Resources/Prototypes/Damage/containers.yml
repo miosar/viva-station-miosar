@@ -6,11 +6,13 @@
     - Toxin
     - Airloss
     - Genetic
+    - Paracausal
 
 - type: damageContainer
   id: Inorganic
   supportedGroups:
     - Brute
+    - Paracausal
   supportedTypes:
     - Heat
     - Shock
@@ -19,6 +21,7 @@
   id: StructuralInorganic
   supportedGroups:
   - Brute
+  - Paracausal 
   supportedTypes:
   - Heat
   - Shock
@@ -29,6 +32,7 @@
   supportedGroups:
     - Brute
     - Electronic #Goobstation
+    - Paracausal 
   supportedTypes:
     - Heat
     - Shock
@@ -37,6 +41,7 @@
   id: Shield
   supportedGroups:
     - Brute
+    - Paracausal 
   supportedTypes:
     - Heat
 
@@ -46,6 +51,7 @@
     - Brute
     - Burn
     - Toxin
+    - Paracausal 
   supportedTypes:
     - Shock
 
@@ -59,6 +65,7 @@
   supportedGroups:
     - Metaphysical
     - Brute
+    - Paracausal 
   supportedTypes:
     - Heat
     - Shock
@@ -73,3 +80,4 @@
   - Airloss
   - Genetic
   - Metaphysical
+  - Paracausal 

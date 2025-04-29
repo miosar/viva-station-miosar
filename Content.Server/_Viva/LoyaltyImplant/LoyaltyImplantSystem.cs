@@ -1,5 +1,6 @@
 
 
+using System.Linq;
 using Content.Server._Impstation.Thaven;
 using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Dataset;
@@ -7,6 +8,7 @@ using Content.Shared.Implants;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Toolshed.TypeParsers;
+using Robust.Shared.Utility;
 
 namespace Content.Server._Viva.LoyaltyImplant;
 
@@ -33,11 +35,15 @@ public sealed class LoyaltyImplantSysten : EntitySystem
 
         if (args.Implanted != null)
         {
-            EnsureComp<ThavenMoodsComponent>(target, out var moodComp);
-            _moodSystem.ToggleEmaggable((target, moodComp));
-            _moodSystem.ClearMoods((target, moodComp));
-            _moodSystem.ToggleSharedMoods((target, moodComp));
-            _moodSystem.TryAddRandomMood((target, moodComp), LoyaltyImplantMoods);
+            if (!EnsureComp<ThavenMoodsBoundComponent>(target, out var moodComp))
+            {
+                _moodSystem.ToggleEmaggable((target, moodComp));
+                _moodSystem.ClearMoods((target, moodComp));
+                _moodSystem.ToggleSharedMoods((target, moodComp));
+            }
+
+            _moodSystem.TryAddRandomMood(target, LoyaltyImplantMoods, moodComp);
+            component.Mood = moodComp.Moods.Last(); //get last mood in list because it should be the one we just added
             Dirty(target, moodComp);
         }
     }
@@ -46,7 +52,19 @@ public sealed class LoyaltyImplantSysten : EntitySystem
     {
         component.Target = args.Container.Owner;
 
-        if (HasComp<ThavenMoodsComponent>(args.Container.Owner))
-            RemComp<ThavenMoodsComponent>(args.Container.Owner);
+        if (TryComp<ThavenMoodsBoundComponent>(args.Container.Owner, out var moodComp))
+            if (component.Mood != null)
+            {
+                var newSet = moodComp.Moods.ShallowClone();
+                newSet.Remove(component.Mood);
+                if (newSet.Count > 0)
+                {
+                    _moodSystem.SetMoods(args.Container.Owner, newSet, moodComp);
+                }
+                else
+                {
+                    RemComp<ThavenMoodsBoundComponent>(args.Container.Owner);
+                }
+            }
     }
 }

@@ -13,12 +13,39 @@
   - ScienceSOP
   - AlertLevelsSOP
   - EnemiesOfTheCorporation
+  - CommandSOPHidden
 
-  #Edited on Viva
+  #Edited on Viva, alongside further hidden SoP
 - type: guideEntry
   id: CommandSOP
   name: guide-entry-command-sop
   text: "/ServerInfo/Funkystation/Guidebook/Command/CommandStandardOperatingProcedure.xml"
+
+- type: guideEntry
+  id: CommandSOPHidden
+  name: Hidden SOP
+  text: "/ServerInfo/_Viva/Guidebook/CommandHidden/CommandHiddenStandardOperatingProcedure.xml"
+  children:
+  - CommandSOPClearanceLevel1
+  - CommandSOPClearanceLevel2
+  - CommandSOPClearanceLevel3
+
+- type: guideEntry
+  id: CommandSOPClearanceLevel1
+  name: Clearance Level 1
+  text: "/ServerInfo/_Viva/Guidebook/CommandHidden/ClearanceLevel1.xml" 
+
+- type: guideEntry
+  id: CommandSOPClearanceLevel2
+  name: Clearance Level 2
+  text: "/ServerInfo/_Viva/Guidebook/CommandHidden/ClearanceLevel2.xml"
+
+- type: guideEntry
+  id: CommandSOPClearanceLevel3
+  name: Clearance Level 3
+  text: "/ServerInfo/_Viva/Guidebook/CommandHidden/ClearanceLevel3.xml"
+#end of hidden SOP
+
 
 - type: guideEntry
   id: AlertLevelsSOP

@@ -1,0 +1,12 @@
+- type: entity
+  id: StorePresetCCD
+  abstract: true
+  components:
+  - type: Store
+    name: CCD Agent Requisitions
+    categories:
+    - ParallelItems
+    currencyWhitelist:
+    - Timecrystal
+    balance:
+      Timecrystal: 0

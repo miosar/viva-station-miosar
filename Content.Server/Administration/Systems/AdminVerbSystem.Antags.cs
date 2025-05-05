@@ -1,5 +1,4 @@
 using Content.Server._Impstation.CosmicCult.Components;
-using Content.Server._Viva.GameTicking.Rules.Components;
 using Content.Server.Administration.Commands;
 using Content.Server.Antag;
 using Content.Server.GameTicking.Rules.Components;
@@ -233,19 +232,5 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-cultist")
         };
         args.Verbs.Add(cultAntag);
-
-        Verb ccdAntag = new()
-        {
-            Text = "CCD Agent",
-            Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new("/Textures/Objects/Fun/bikehorn.rsi"), "Icon"),
-            Act = () =>
-            {
-                _antag.ForceMakeAntag<CCDAgentRuleComponent>(targetPlayer, "CCDAgent");
-            },
-            Impact = LogImpact.High,
-            Message = Loc.GetString("admin-verb-make-ccd-agent")
-        };
-        args.Verbs.Add(ccdAntag);
     }
 }

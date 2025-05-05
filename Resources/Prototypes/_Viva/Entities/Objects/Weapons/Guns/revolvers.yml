@@ -1,6 +1,6 @@
 - type: entity
   name: CCD Agent Revolver
-  parent: BaseWeaponRevolver
+  parent: [ BaseWeaponRevolver, BaseCCDContraband ]
   id: WeaponRevolverCCD
   description: A standard CCD agent revolver. Makes things no longer exist
   components:
@@ -30,3 +30,6 @@
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
+  - type: Tag
+    tag:
+    - CCDAgentRevolver

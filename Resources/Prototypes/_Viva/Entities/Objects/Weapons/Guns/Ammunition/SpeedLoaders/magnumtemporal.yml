@@ -38,3 +38,6 @@
     steps: 7
     zeroVisible: false
   - type: Appearance
+  - type: Tag
+    tags:
+    - CCDAgentSpeedloader

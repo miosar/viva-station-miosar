@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetCCD
+  name: CCD over-ear headset
+  description: A standard CCD over-ear headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCCD
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Ears/Headsets/chronolegioneer.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Ears/Headsets/chronolegioneer.rsi

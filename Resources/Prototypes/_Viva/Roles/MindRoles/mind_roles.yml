@@ -1,0 +1,10 @@
+# CCD Agent - Vivastation
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleCCDAntag
+  name: CCD Agent Role
+  components:
+  - type: MindRole
+    antagPrototype: CCDAgent
+    roleType: SoloAntagonist
+  - type: CCDAgentRole

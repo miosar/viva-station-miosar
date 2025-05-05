@@ -1,0 +1,11 @@
+- type: antag
+  id: CCDAgent
+  name: CCD Agent
+  antagonist: true
+  objectives: You have been sent to repair the timeline. Follow your objectives.
+
+- type: startingGear
+  id: CCDAgentGear
+  storage:
+    back:
+    - CCDAgentBox

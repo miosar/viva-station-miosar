@@ -30,3 +30,6 @@
       - id: BluespaceLifelineImplanter
       - id: FreedomImplanter
       - id: ClothingHeadsetCCD
+      - id: CCDPDA
+      - id: NitrogenTankCCD
+      - id: OxygenTankCCD

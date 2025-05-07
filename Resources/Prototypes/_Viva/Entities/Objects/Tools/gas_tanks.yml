@@ -1,5 +1,5 @@
 - type: entity
-  parent: OxygenTank
+  parent: [ OxygenTank, BaseCCDContraband ]
   id: OxygenTankCCD
   name: CCD hyper-capacity oxygen tank
   description: Contains a truely impressive amount of supercooled gas
@@ -14,7 +14,7 @@
 
 - type: entity
   id: NitrogenTankCCD
-  parent: NitrogenTank
+  parent: [ NitrogenTank, BaseCCDContraband ]
   name: CCD hyper-capacity nitrogen tank
   components:
   - type: GasTank

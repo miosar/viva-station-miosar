@@ -68,5 +68,16 @@
   categories:
   - ParallelItems
 
+- type: listing
+  id: TimeAgentAmmunitionSpeeloaderTemporal
+  name: Temporal Speedloader
+  description: pulls out a spare speedloader for your revolver
+  productEntity: SpeedLoaderMagnumTemporal
+  cost:
+    Timecrystal: 1
+  categories:
+  - TimeAgentAmmo
+
+
 
 

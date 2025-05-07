@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadset
+  parent: [ ClothingHeadset, BaseCCDContraband ]
   id: ClothingHeadsetCCD
   name: CCD over-ear headset
   description: A standard CCD over-ear headset
@@ -9,6 +9,6 @@
       key_slots:
       - EncryptionKeyCCD
   - type: Sprite
-    sprite: _Goobstation/Clothing/Ears/Headsets/chronolegioneer.rsi
+    sprite: _Viva/Clothing/Ears/Headsets/ccd.rsi
   - type: Clothing
-    sprite: _Goobstation/Clothing/Ears/Headsets/chronolegioneer.rsi
+    sprite: _Viva/Clothing/Ears/Headsets/ccd.rsi

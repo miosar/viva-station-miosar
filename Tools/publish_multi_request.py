@@ -15,7 +15,7 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://vivastation.top/"
+ROBUST_CDN_URL = "https://build.funkystation.org/"
 FORK_ID = "viva"
 
 def main():

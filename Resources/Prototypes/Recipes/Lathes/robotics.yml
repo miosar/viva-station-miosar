@@ -190,6 +190,11 @@
   id: BorgModuleAnomaly
   result: BorgModuleAnomaly
 
+- type: latheRecipe
+  parent: BaseGoldBorgModuleRecipe
+  id: BorgModuleAdvancedAnomaly
+  result: BorgModuleAdvancedAnomaly
+
 # Service Modules
 
 - type: latheRecipe

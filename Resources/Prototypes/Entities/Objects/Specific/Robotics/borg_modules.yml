@@ -87,6 +87,15 @@
     - BorgModuleService
 
 - type: entity
+  id: BaseBorgModuleScience
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - BorgModuleScience
+
+- type: entity
   id: BaseBorgModuleSyndicate
   parent: BaseBorgModule
   abstract: true
@@ -443,7 +452,7 @@
 # todo: if science ever gets their own custom robot, add more "sci" modules.
 - type: entity
   id: BorgModuleArtifact
-  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
   name: artifact cyborg module
   components:
   - type: Sprite
@@ -453,12 +462,18 @@
   - type: ItemBorgModule
     items:
     - NodeScanner
+    - SynthesizerInstrument
+    - Wrench
+    - Multitool
+    - WelderIndustrial
+    - Syringe
+    - Beaker
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: node-scanner-module }
 
 - type: entity
   id: BorgModuleAnomaly
-  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
   name: anomaly cyborg module
   components:
   - type: Sprite
@@ -474,6 +489,27 @@
     - Multitool
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: anomaly-module }
+
+- type: entity
+  id: BorgModuleAdvancedAnomaly
+  parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
+  name: advanced anomaly cyborg module
+  components:
+  - type: Sprite
+    layers:
+    - state: science
+    - state: icon-advanced-anomalies
+  - type: ItemBorgModule
+    items:
+    - CHIMPRecharging
+    - AnomalyScanner
+    - AnomalyLocatorUnpowered
+    - AnomalyLocatorWideUnpowered
+    - RemoteSignaller
+    - Multitool
+  - type: BorgModuleIcon
+    icon: { sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi, state: base }
+
 
 # service modules
 - type: entity

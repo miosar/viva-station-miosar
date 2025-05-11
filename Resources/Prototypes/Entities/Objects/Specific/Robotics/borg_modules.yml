@@ -311,6 +311,7 @@
     items:
     - RPDRecharging
     - HolofanProjectorRecharging
+    - trayScanner
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: atmos-module }
 

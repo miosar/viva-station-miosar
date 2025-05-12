@@ -228,6 +228,18 @@
             "directions": 4
         },
         {
+            "name": "science_e",
+            "directions": 4
+        },
+        {
+            "name": "science_e_r",
+            "directions": 4
+        },
+        {
+            "name": "science_l",
+            "directions": 4
+        },
+        {
             "name": "peace",
             "directions": 4
         },

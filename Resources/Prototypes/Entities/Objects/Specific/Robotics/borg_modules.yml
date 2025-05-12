@@ -462,12 +462,12 @@
   - type: ItemBorgModule
     items:
     - NodeScanner
-    - SynthesizerInstrument
     - Wrench
     - Multitool
     - WelderIndustrial
     - Syringe
     - Beaker
+    - SynthesizerInstrument
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: node-scanner-module }
 

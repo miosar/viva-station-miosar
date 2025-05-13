@@ -1,4 +1,4 @@
-﻿using Content.Shared.Interaction.Components;
+using Content.Shared.Interaction.Components;
 using Content.Shared.Inventory;
 using Content.Shared.Radio;
 using Content.Shared.Silicons.Borgs.Components;
@@ -152,4 +152,10 @@ public sealed partial class BorgTypePrototype : IPrototype
     /// </summary>
     [DataField]
     public SoundSpecifier FootstepCollection { get; set; } = new SoundCollectionSpecifier(DefaultFootsteps);
+
+    /// <summary>
+    /// Viva - The lawset that the chassis is using, if it is specifically set.
+    /// </summary>
+    [DataField]
+    public string? ChassisLawset { get; set; }
 }

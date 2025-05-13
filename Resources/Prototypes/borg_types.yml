@@ -17,6 +17,15 @@
   radioChannels:
   - Science
 
+  # Viva - per-chassis lawset
+  #
+  # Lawsets can be found in Resources/Prototypes/silicon-laws.yml
+  # At time of writing, available options are:
+  # Crewsimov, Corporate, NTDefault, Drone, SyndicateStatic, Ninja, CommandmentsLawset, PaladinLawset, LiveLetLiveLaws, EfficiencyLawset,
+  # RobocopLawset, OverlordLawset, DungeonMasterLawset, PainterLawset, JermovLawset, NutimovLawset, AsimovLawset
+  Lawset: Crewsimov
+  
+
   # Visual
   inventoryTemplateId: borgShort
   spriteBodyState: robot
@@ -54,6 +63,9 @@
   - Engineering
   - Science
 
+  # Viva - Lawset
+  #chassisLawset:
+
   # Visual
   inventoryTemplateId: borgShort
   spriteBodyState: engineer
@@ -88,6 +100,9 @@
   radioChannels:
   - Supply
   - Science
+
+  # Viva - Lawset
+  #chassisLawset:
 
   # Visual
   inventoryTemplateId: borgTall
@@ -124,6 +139,9 @@
   - Science
   - Service
 
+  # Viva - Lawset
+  #chassisLawset:
+
   # Visual
   inventoryTemplateId: borgShort
   spriteBodyState: janitor
@@ -158,6 +176,9 @@
   radioChannels:
   - Science
   - Medical
+
+  # Viva - Lawset
+  #chassisLawset:
 
   addComponents:
   - type: SolutionScanner
@@ -210,6 +231,9 @@
   - Science
   - Service
 
+  # Viva - Lawset
+  #chassisLawset:
+
   # Visual
   inventoryTemplateId: borgTall
   spriteBodyState: service
@@ -241,6 +265,9 @@
 
   radioChannels:
   - Science
+
+  # Viva - Lawset
+  #chassisLawset:
 
   # Visual
   inventoryTemplateId: borgShort

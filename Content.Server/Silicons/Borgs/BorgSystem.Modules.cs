@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Reflection.Metadata;
 using Content.Shared.Hands.Components;
 using Content.Shared.Interaction.Components;
 using Content.Shared.Silicons.Borgs.Components;
@@ -225,6 +226,10 @@ public sealed partial class BorgSystem
             component.ProvidedItems.Add(handId, item);
         }
 
+        //Viva - Add borg hand
+        var handId2 = $"{uid}-item{component.HandCounter + 1}";
+        _hands.AddHand(chassis, handId2, HandLocation.Middle, hands);
+
         component.ItemsCreated = true;
     }
 
@@ -256,6 +261,10 @@ public sealed partial class BorgSystem
             }
             _hands.RemoveHand(chassis, handId, hands);
         }
+        //Viva - Remove borg hand
+        var handId2 = $"{uid}-item{component.HandCounter + 1}";
+        _hands.RemoveHand(chassis, handId2, hands);
+
         component.ProvidedItems.Clear();
     }
 

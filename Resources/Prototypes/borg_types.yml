@@ -23,7 +23,7 @@
   # At time of writing, available options are:
   # Crewsimov, Corporate, NTDefault, Drone, SyndicateStatic, Ninja, CommandmentsLawset, PaladinLawset, LiveLetLiveLaws, EfficiencyLawset,
   # RobocopLawset, OverlordLawset, DungeonMasterLawset, PainterLawset, JermovLawset, NutimovLawset, AsimovLawset
-  Lawset: Crewsimov
+  chassisLawset: Crewsimov
   
 
   # Visual

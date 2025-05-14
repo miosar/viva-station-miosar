@@ -21,7 +21,7 @@
 
   [bold]7.[/bold] The Captain is expected to report to Central Command any crewmembers with suspected anti-Nanotrasen sympathies;
 
-  [bold]8.[/bold] The Captain may not promote any personnel to the position of Nanotrasen Representative or Blue Shield Officer;
+  [bold]8.[/bold] The Captain may not promote any personnel to the position of Nanotrasen Representative or Blueshield Officer;
 
   # Head of Personnel
 
@@ -31,13 +31,13 @@
 
   [bold]3.[/bold] The Head of Personnel is expected to assist the Captain in any orders assigned by Central Command, alongside assisting in locating anti-Nanotrasen Sympathies;
 
-  [bold]4.[/bold] The Head of Personnel may not promote any personnel to the position of Nanotrasen Representative or Blue Shield Officer;
+  [bold]4.[/bold] The Head of Personnel may not promote any personnel to the position of Nanotrasen Representative or Blueshield Officer;
 
   # Head of Security
 
   [bold]1.[/bold] The Head of Security is expected to follow all orders from the Captain and Central Command, both to the letter and to the intent;
 
-  [bold]2.[/bold] The Head of Security is expected to either have evidence of a space law violation before an arrest, or have direct orders to arrest;
+  [bold]2.[/bold] The Head of Security is expected to either have evidence of a Space Law violation before an arrest, or have direct orders to arrest;
 
   [bold]3.[/bold] The Head of Security is expected to assist the Captain in locating any anti-Nanotrasen Sympathies;
 
@@ -49,21 +49,37 @@
 
   [bold]2.[/bold] The Quartermaster is permitted to discreetly order security equipment if ordered to by Central Command;
 
+  [bold]3.[/bold] The Quartermaster is not required to follow the guidelines put in place for Cargo Technicians;
+
   # Research Director
 
   [bold]1.[/bold] The Research Director is expected to have all research completed by shift end;
 
-  [bold]2.[/bold] The Research Director is permitted to change station AI laws if ordered to by Central Command;
+  [bold]2.[/bold] The Research Director is permitted to change station AI laws if ordered to by Central Command, or if they get permission from the Captain;
 
-  [bold]3.[/bold] The Research Director is expected to log and research all anomolies, unless they pose a immidiate threat to the stations profits;
+  [bold]3.[/bold] The Research Director is expected to log and research all anomalies, unless they pose an immediate threat to the station's profits;
+
+  [bold]4.[/bold] The Research Director is allowed to perform experiments on crew members in conjunction with the CMO;
 
   # Chief Engineer
 
-  [bold]1.[/bold] The Chief Engineer is permitted to take the fire axe for any reason;
+  [bold]1.[/bold] The Chief Engineer is allowed to disable power in areas on the station if ordered to by Central Command;
+
+  [bold]2.[/bold] The Chief Engineer is allowed to declare an area "Condemned" if it would be unprofitable to fix it;
+
+  [bold]3.[/bold] The Chief Engineer is permitted to take and use the fire axe whenever they see fit;
+
 
   # Chief Medical Officer
 
-  [bold]1.[/bold] The Chief Medical Officer is permitted to create poisonous or explosive chemicals if ordered to by Central Command;
+  [bold]1.[/bold] Alongside the normal allowances, the Chief Medical Officer is also permitted to create poisonous or explosive chemicals if ordered to by Central Command;
+
+  [bold]2.[/bold] The Chief Medical Officer, in conjunction with the Research Director, is permitted to run medical experiments on crew members in the interest of scientific progress and profit;
+
+  [bold]3.[/bold] The Chief Medical Officer is permitted to carry the chemicals and other supplies needed to subdue and restrain unruly patients who refuse treatment.
+
+  [bold]4.[/bold] The Chief Medical Officer is the arbiter of all medical decisions on station, and is allowed to treat and perform surgeries on crew members as they see fit. The only ones who can overrule the CMO are the Captain and Central Command.
+
 
   # Nanotrasen Representative
 

@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="200" src="https://github.com/misterghast/viva-station/blob/main/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Space Station 14" src="https://github.com/misterghast/viva-station/blob/main/Resources/Textures/Logo/logo.png" /></p>
 
 This is a fork from the primary repo for Funky Station called Viva Station. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
 

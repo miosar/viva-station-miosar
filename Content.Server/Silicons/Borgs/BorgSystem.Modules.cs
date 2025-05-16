@@ -226,6 +226,8 @@ public sealed partial class BorgSystem
             component.ProvidedItems.Add(handId, item);
         }
 
+        //Viva - Add borg hand
+        _hands.AddHand(uid, "BorgHand", HandLocation.Middle, hands);
         component.ItemsCreated = true;
     }
 
@@ -257,6 +259,8 @@ public sealed partial class BorgSystem
             }
             _hands.RemoveHand(chassis, handId, hands);
         }
+        //Viva - Remove borg hand
+        _hands.RemoveHand(uid, "BorgHand", hands);
         component.ProvidedItems.Clear();
     }
 

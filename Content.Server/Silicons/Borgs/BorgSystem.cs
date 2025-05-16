@@ -88,11 +88,7 @@ public sealed partial class BorgSystem : SharedBorgSystem
     {
         UpdateBatteryAlert((uid, component));
         _movementSpeedModifier.RefreshMovementSpeedModifiers(uid);
-        //Viva - Add borg hand
-        if (!TryComp<HandsComponent>(uid, out var hands))
-            return;
-        //var handId2 = $"{uid}-item{component.HandCounter + 1}";
-        _hands.AddHand(uid, "BorgHand", HandLocation.Middle, hands);
+        
     }
 
     private void OnChassisInteractUsing(EntityUid uid, BorgChassisComponent component, AfterInteractUsingEvent args)

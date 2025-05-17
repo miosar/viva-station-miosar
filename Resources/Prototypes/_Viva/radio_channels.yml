@@ -1,0 +1,7 @@
+- type: radioChannel
+  id: CCDRadio
+  name: CCD
+  keycode: "k"
+  frequency: 3446
+  color: "#ffbd00"
+  longRange: true

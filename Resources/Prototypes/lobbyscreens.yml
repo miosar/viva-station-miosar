@@ -51,14 +51,11 @@
   background: /Textures/LobbyScreens/heretic.webp
 
 - type: lobbyBackground
-  id: funkyComputerLove
-  background: /Textures/LobbyScreens/computerlove.webp
-
-- type: lobbyBackground
   id: doomDeed
   background: /Textures/LobbyScreens/doomdeed.webp
 
 - type: lobbyBackground
-  id: lowpopCrew
-  background: /Textures/LobbyScreens/lowpopCrew.webp
 
+- type: lobbyBackground
+  id: rats
+  background: /Textures/LobbyScreens/rats.webp

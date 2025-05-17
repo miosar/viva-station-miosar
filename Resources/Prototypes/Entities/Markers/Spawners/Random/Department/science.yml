@@ -113,6 +113,7 @@
     - BorgModuleGardening
     - BorgModuleHarvesting
     - BorgModuleAtmos
+    - BorgModuleAdvancedAnomaly
     rareChance: 0.1
     prototypes:
     - BorgModuleCable

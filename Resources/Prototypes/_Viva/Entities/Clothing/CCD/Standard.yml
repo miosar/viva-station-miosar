@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingUniformBase
+  parent: [ ClothingUniformBase, BaseCCDContraband]
   id: ClothingUniformCCD
   name: Standard CCD Agent Garb
   description: A nice blue shirt and brown pants, everything a CCD agent needs!
@@ -8,3 +8,6 @@
     sprite: _Viva/Clothing/Uniforms/StandardGarb/CCD.rsi
   - type: Clothing
     sprite: _Viva/Clothing/Uniforms/StandardGarb/CCD.rsi
+  - type: Tag
+    tags:
+    - CCDAgentGarb

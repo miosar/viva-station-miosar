@@ -155,6 +155,7 @@
   handWhitelist:
     tags:
     - Organ
+    - Trash  
 
   defaultModules:
   - BorgModuleTreatment

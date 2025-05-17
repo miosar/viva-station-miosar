@@ -151,6 +151,11 @@
     - BorgModuleGeneric
     - BorgModuleMedical
 
+  #Viva hand whitelist
+  handWhitelist:
+    tags:
+    - Organ
+
   defaultModules:
   - BorgModuleTreatment
   - BorgModuleDefibrillator  

@@ -144,14 +144,20 @@ public sealed partial class BorgSystem
         if (chassisComp.SelectedModule == moduleUid)
             return;
 
-        //Add viva borg hands
+        //Viva - add borg hands
+        //TODO - possibly see about linking to YML to be more dynamic
         String moduleInfo = ToPrettyString(moduleUid);
+        EntityWhitelist? whitelist = chassisComp.HandWhitelist; //Gets the whitelist from chassisComp
         if (moduleInfo.Contains("BorgModuleSurgery") || moduleInfo.Contains("BorgModuleAdvancedSurgery"))
         {
             if (!TryComp<HandsComponent>(chassis, out var hands))
                 return;
-            _hands.AddHand(chassis, "BorgHand", HandLocation.Middle, hands);
+            if (whitelist != null) //Checks if there is actually a whitelist
+                _hands.AddHand(chassis, "BorgHand", HandLocation.Middle, hands, whitelist); //Adds a hand and signifies that a whitelist is present
+            else
+                _hands.AddHand(chassis, "BorgHand", HandLocation.Middle, hands);
         }
+        //Viva borg hands end
 
         UnselectModule(chassis, chassisComp);
 
@@ -175,10 +181,11 @@ public sealed partial class BorgSystem
         if (chassisComp.SelectedModule == null)
             return;
 
-        //remove viva borg hands
+        //Viva - remove borg hands
         if (!TryComp<HandsComponent>(chassis, out var hands))
             return;
         _hands.RemoveHand(chassis, "BorgHand", hands);
+        //Viva remove borg hands end
 
         var ev = new BorgModuleUnselectedEvent(chassis);
         RaiseLocalEvent(chassisComp.SelectedModule.Value, ref ev);
@@ -422,5 +429,16 @@ public sealed partial class BorgSystem
     public void SetModuleWhitelist(Entity<BorgChassisComponent> ent, EntityWhitelist? whitelist)
     {
         ent.Comp.ModuleWhitelist = whitelist;
+    }
+
+    /// <summary>
+    /// Viva - Hand whitelisting
+    /// Sets <see cref="BorgChassisComponent.HandWhitelist"/>.
+    /// </summary>
+    /// <param name="ent">The borg to modify.</param>
+    /// <param name="whitelist">The new hand whitelist.</param>
+    public void SetHandWhitelist(Entity<BorgChassisComponent> ent, EntityWhitelist? whitelist)
+    {
+        ent.Comp.HandWhitelist = whitelist;
     }
 }

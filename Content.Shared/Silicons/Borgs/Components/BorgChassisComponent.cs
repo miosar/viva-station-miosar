@@ -1,4 +1,4 @@
-﻿using Content.Shared.Alert;
+using Content.Shared.Alert;
 using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
@@ -78,6 +78,12 @@ public sealed partial class BorgChassisComponent : Component
 
     [DataField]
     public ProtoId<AlertPrototype> NoBatteryAlert = "BorgBatteryNone";
+
+    /// <summary>
+    /// Viva - used for borg hands whitelisting
+    /// </summary>
+    [DataField("handWhitelist")]
+    public EntityWhitelist? HandWhitelist;
 }
 
 [Serializable, NetSerializable]

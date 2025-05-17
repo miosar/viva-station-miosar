@@ -1,4 +1,4 @@
-﻿using Content.Server.Inventory;
+using Content.Server.Inventory;
 using Content.Server.Radio.Components;
 using Content.Shared.Inventory;
 using Content.Shared.Silicons.Borgs;
@@ -49,6 +49,9 @@ public sealed class BorgSwitchableTypeSystem : SharedBorgSwitchableTypeSystem
                 prototype.ExtraModuleCount + prototype.DefaultModules.Length);
 
             _borgSystem.SetModuleWhitelist(chassisEnt, prototype.ModuleWhitelist);
+
+            //Viva Configure borg hand whitelist
+            _borgSystem.SetHandWhitelist(chassisEnt, prototype.HandWhitelist);
 
             foreach (var module in prototype.DefaultModules)
             {

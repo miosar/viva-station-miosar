@@ -1,4 +1,4 @@
-﻿using Content.Shared.Interaction.Components;
+using Content.Shared.Interaction.Components;
 using Content.Shared.Inventory;
 using Content.Shared.Radio;
 using Content.Shared.Silicons.Borgs.Components;
@@ -51,6 +51,13 @@ public sealed partial class BorgTypePrototype : IPrototype
     /// <seealso cref="BorgChassisComponent.ModuleWhitelist"/>
     [DataField]
     public EntityWhitelist? ModuleWhitelist { get; set; }
+
+    /// <summary>
+    /// Viva - the whitelist for items that can be held in this borg type's hands.
+    /// </summary>
+    /// <seealso cref="BorgChassisComponent.HandWhitelist"/>
+    [DataField]
+    public EntityWhitelist? HandWhitelist { get; set; }
 
     /// <summary>
     /// Inventory template used by this borg.

@@ -144,6 +144,15 @@ public sealed partial class BorgSystem
         if (chassisComp.SelectedModule == moduleUid)
             return;
 
+        //Add viva borg hands
+        String moduleInfo = ToPrettyString(moduleUid);
+        if (moduleInfo.Contains("BorgModuleSurgery") || moduleInfo.Contains("BorgModuleAdvancedSurgery"))
+        {
+            if (!TryComp<HandsComponent>(chassis, out var hands))
+                return;
+            _hands.AddHand(chassis, "BorgHand", HandLocation.Middle, hands);
+        }
+
         UnselectModule(chassis, chassisComp);
 
         var ev = new BorgModuleSelectedEvent(chassis);
@@ -165,6 +174,11 @@ public sealed partial class BorgSystem
 
         if (chassisComp.SelectedModule == null)
             return;
+
+        //remove viva borg hands
+        if (!TryComp<HandsComponent>(chassis, out var hands))
+            return;
+        _hands.RemoveHand(chassis, "BorgHand", hands);
 
         var ev = new BorgModuleUnselectedEvent(chassis);
         RaiseLocalEvent(chassisComp.SelectedModule.Value, ref ev);
@@ -226,8 +240,6 @@ public sealed partial class BorgSystem
             component.ProvidedItems.Add(handId, item);
         }
 
-        //Viva - Add borg hand
-        _hands.AddHand(uid, "BorgHand", HandLocation.Middle, hands);
         component.ItemsCreated = true;
     }
 
@@ -259,8 +271,6 @@ public sealed partial class BorgSystem
             }
             _hands.RemoveHand(chassis, handId, hands);
         }
-        //Viva - Remove borg hand
-        _hands.RemoveHand(uid, "BorgHand", hands);
         component.ProvidedItems.Clear();
     }
 

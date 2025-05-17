@@ -53,6 +53,13 @@ public sealed partial class BorgTypePrototype : IPrototype
     public EntityWhitelist? ModuleWhitelist { get; set; }
 
     /// <summary>
+    /// Viva - the whitelist for items that can be held in this borg type's hands.
+    /// </summary>
+    /// <seealso cref="BorgChassisComponent.HandWhitelist"/>
+    [DataField]
+    public EntityWhitelist? HandWhitelist { get; set; }
+
+    /// <summary>
     /// Inventory template used by this borg.
     /// </summary>
     /// <remarks>

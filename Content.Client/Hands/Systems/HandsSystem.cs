@@ -19,6 +19,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
+using Content.Shared.Whitelist;
 
 namespace Content.Client.Hands.Systems
 {
@@ -429,9 +430,15 @@ namespace Content.Client.Hands.Systems
             AddHand(uid, newHand.Name, newHand.Location, handsComp);
         }
 
-        public override void AddHand(EntityUid uid, string handName, HandLocation handLocation, HandsComponent? handsComp = null)
+        public override void AddHand(EntityUid uid, string handName, HandLocation handLocation, HandsComponent? handsComp = null, EntityWhitelist? whitelist = null)
         {
             base.AddHand(uid, handName, handLocation, handsComp);
+
+            //Viva - checks if there's a whitelist, and if so, sets it to the hand.
+            if (whitelist != null && handsComp != null)
+            {
+                handsComp.HandWhitelist = whitelist;
+            }
 
             if (uid == _playerManager.LocalEntity)
                 OnPlayerAddHand?.Invoke(handName, handLocation);

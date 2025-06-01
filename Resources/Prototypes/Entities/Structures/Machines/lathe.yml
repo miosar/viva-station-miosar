@@ -728,6 +728,7 @@
     - BorgModuleGPS
     - BorgModuleArtifact
     - BorgModuleAnomaly
+    - BorgModuleAdvancedAnomaly  
     - BorgModuleGardening
     - BorgModuleHarvesting
     - BorgModuleDefibrillator

@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingNeckBase
+  parent: [ ClothingNeckBase, BaseCCDContraband ]
   id: ClothingNeckTieCCD
   name: CCD Agent Tie
   description: A standard CCD edition brown necktie. Temporal Abilities not included
@@ -8,3 +8,6 @@
     sprite: _Viva/Clothing/Neck/browntie.rsi
   - type: Clothing
     sprite: _Viva/Clothing/Neck/browntie.rsi
+  - type: Tag
+    tags:
+    - CCDAgentTie

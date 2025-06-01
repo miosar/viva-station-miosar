@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: [ ClothingHeadHardsuitBase, BaseCCDContraband ]
   id: CCDProjectedHelmet
   name: CCD Jacket Projected Hardlight Helmet
   description: A invisible helmet of projected hardlight.

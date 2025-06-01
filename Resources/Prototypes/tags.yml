@@ -124,6 +124,9 @@
   id: BorgModuleService
 
 - type: Tag
+  id: BorgModuleScience
+
+- type: Tag
   id: BorgModuleSyndicate
 
 - type: Tag

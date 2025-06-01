@@ -1,6 +1,6 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="200" src="https://github.com/funky-station/funky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Space Station 14" src="https://github.com/misterghast/viva-station/blob/main/Resources/Textures/Logo/logo.png" /></p>
 
-This is a fork from the primary repo for Goob Station 14 called Funky Station. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+This is a fork from the primary repo for Funky Station called Viva Station. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
 
 If you want to host or create content for SS14, or for Goob Station, go to the [Space Station 14 repository](https://github.com/space-wizards/space-station-14), or the [Goob Station repository](https://github.com/Goob-Station/Goob-Station).
 
@@ -19,9 +19,32 @@ We recommend you read the contribution guidelines. [Contribution Guidelines](htt
 
 ## Building
 
-1. Clone this repo.
-2. Run `RUN_THIS.py` to init submodules and download the engine.
-3. Compile the solution.
+We provide some scripts shown below to make the job easier.
+
+### Build dependencies
+
+> - [Git](https://git-scm.com)
+> - [.NET SDK 9.0.101](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+
+### Windows
+
+> 1. Clone this repository
+> 2. Run `Scripts/bat/buildAllDebug.bat` after making any changes to the source
+> 3. Run `Scripts/bat/runQuickAll.bat` to launch the client and the server
+> 4. Connect to localhost in the client and play
+
+### Linux
+
+> 1. Clone this repository
+> 2. Run `Scripts/sh/buildAllDebug.sh` after making any changes to the source
+> 3. Run `Scripts/sh/runQuickAll.sh` to launch the client and the server
+> 4. Connect to localhost in the client and play
+
+### MacOS
+
+> I don't know anybody using MacOS to test this, but it's probably roughly the same steps as Linux
+
+If your changes are under the resources folder, you do not need to build more than once, only run.
 
 [More detailed instructions on building the project.](https://docs.goobstation.com/en/general-development/setup.html)
 

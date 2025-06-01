@@ -6,6 +6,7 @@
     name: CCD Agent Requisitions
     categories:
     - ParallelItems
+    - TimeAgentAmmo
     currencyWhitelist:
     - Timecrystal
     balance:

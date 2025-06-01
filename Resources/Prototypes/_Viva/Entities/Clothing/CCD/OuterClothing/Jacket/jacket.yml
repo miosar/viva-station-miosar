@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: [ ClothingOuterStorageBase, BaseCCDContraband]
   id: ClothingOuterCoatCCD
   name: CCD Agent Jacket
   description: A standard edition protective jacket for a CCD Agent. Uses a paradox to be both armored and not armored at the same time, alongside being fireproof!. Neat! (also functions as a hardsuit!)
@@ -31,7 +31,11 @@
     sprintModifier: 1
   - type: ToggleableClothing
     clothingPrototype: CCDProjectedHelmet
+  - type: StasisBlinkProvider
   - type: AllowSuitStorage
     whitelist:
       tags:
       - GasTank
+  - type: Tag
+    tags:
+    - CCDAgentJacket

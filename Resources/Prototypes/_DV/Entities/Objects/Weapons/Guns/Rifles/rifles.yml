@@ -26,7 +26,7 @@
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:
-      path: /Audio/Weapons/Guns/Empty/dry_fire.ogg
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: ItemSlots
     slots:
       gun_magazine:

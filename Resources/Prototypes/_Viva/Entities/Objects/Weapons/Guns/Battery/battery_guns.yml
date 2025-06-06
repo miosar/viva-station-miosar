@@ -2,7 +2,7 @@
   id: G11BeamRifle
   parent: [ BaseWeaponBattery, BaseGunWieldable ]
   name: KSM-5000 Assault Laser
-  description: A long, boxy rifle birthed by the mad scientists in the depths of Nanotrasen R&D. Some say the design is a clone of an old Earth rifle from centuries past, but NT's legal team seems to think otherwise.
+  description: A long, boxy rifle birthed by the mad scientists in the depths of Nanotrasen R&D. It sports a hyperburst fire mode, alongside a standard full auto and semi-auto fire mode. Some say the design is a clone of an old Earth rifle from centuries past, but NT's legal team seems to think otherwise.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi

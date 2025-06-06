@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
+  parent: [ BaseWeaponSubMachineGun, BaseGunWieldable, BaseCentcommContraband ]
   id: WeaponRifleLaser
   name: IK-30
   description: A bulky, single barreled rifle that uses disposable laser cartridges rather than an internal power cell.
@@ -15,14 +15,21 @@
     sprite: _DV/Objects/Weapons/Guns/Rifles/lasercarbine.rsi
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -16
   - type: Gun
-    fireRate: 3
-    minAngle: 1
-    maxAngle: 4
-    selectedMode: SemiAuto
+    minAngle: 21
+    maxAngle: 32
+    fireRate: 4
+    burstFireRate: 8
+    selectedMode: FullAuto
     availableModes:
     - SemiAuto
     - FullAuto
+    - Burst
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:

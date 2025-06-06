@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: G11Battery
-  name: Placeholder Battery Magazine
-  description: It's a weirdly long battery, meant for the placeholder until it has a proper name
+  name: KSM-5000 Battery Magazine
+  description: It's a weirdly long battery, meant for the KSM-5000. It sports a light at the front of the magazine to let you know the right way to insert it, and to let you know when the rifle is empty.
   components:
   - type: Tag
     tags:

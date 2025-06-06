@@ -72,7 +72,7 @@
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:
-      path: /Audio/Weapons/Guns/Empty/dry_fire.ogg
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: Battery
     maxCharge: 900
     startingCharge: 900

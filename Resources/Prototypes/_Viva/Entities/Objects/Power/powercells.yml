@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: G11Battery
+  name: Placeholder Battery Magazine
+  description: It's a weirdly long battery, meant for the placeholder until it has a proper name
+  components:
+  - type: Tag
+    tags:
+    - G11Magazine
+  - type: HitscanBatteryAmmoProvider
+    proto: RedLaser
+    fireCost: 50
+  - type: Battery
+    maxCharge: 1500
+    startingCharge: 1500
+  - type: Item
+    storedRotation: -90
+  - type: PowerCell
+  - type: Riggable
+  - type: Sprite
+    sprite: Objects/Fun/bikehorn.rsi
+    state: icon

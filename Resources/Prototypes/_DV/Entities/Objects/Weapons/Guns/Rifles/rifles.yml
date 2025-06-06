@@ -2,7 +2,7 @@
   parent: [ BaseWeaponSubMachineGun, BaseGunWieldable, BaseCentcommContraband ]
   id: WeaponRifleLaser
   name: IK-30
-  description: A bulky, single barreled rifle that uses disposable laser cartridges rather than an internal power cell.
+  description: A lightweight submachine gun that uses disposable laser cartridges rather than an internal power cell. However, it has a surprising amount of kickback, so wielding is recommended.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Rifles/lasercarbine.rsi

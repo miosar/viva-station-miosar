@@ -17,7 +17,7 @@
   - type: AmmoCounter
   - type: Gun
     fireRate: 4
-    burstFireRate: 20
+    burstFireRate: 35
     selectedMode: Burst
     availableModes:
     - SemiAuto

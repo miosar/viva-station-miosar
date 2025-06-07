@@ -23,7 +23,7 @@
     - SemiAuto
     - FullAuto
     - Burst
-    burstCooldown: 1
+    burstCooldown: 0.5a
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
   - type: MagazineAmmoProvider

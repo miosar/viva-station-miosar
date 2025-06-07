@@ -6,7 +6,7 @@
   description: A monstrously powerful experimental laser rifle. Outfitted with a scope, it requires special capacitive cells to be fired.
   components:
   - type: Item
-    size: Ginormous
+    size: Huge
   - type: Sprite
     layers:
     - state: base

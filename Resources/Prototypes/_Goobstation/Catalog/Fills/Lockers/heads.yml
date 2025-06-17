@@ -43,6 +43,7 @@
     - id: ClothingOuterHardsuitBlueshield
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
+    - id: SecHypo
     - id: BookClearance3
 
 - type: entity

@@ -925,6 +925,9 @@
   id: NoConsoleSound
 
 - type: Tag
+  id: NonlethalGrenade
+
+- type: Tag
   id: NoRecharge # Assmos - Crystallizer
 
 - type: Tag
@@ -1325,7 +1328,7 @@
 
 - type: Tag
   id: Torch
-  
+
 - type: Tag
   id: Tourniquet
 

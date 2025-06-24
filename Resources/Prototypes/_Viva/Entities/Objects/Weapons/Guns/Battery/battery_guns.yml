@@ -5,11 +5,11 @@
   description: A long, boxy rifle birthed by the mad scientists in the depths of Nanotrasen R&D. It sports a hyperburst fire mode, alongside a standard full auto and semi-auto fire mode. Some say the design is a clone of an old Earth rifle from centuries past, but NT's legal team seems to think otherwise.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: _Viva/Objects/Weapons/ksm-5000.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
-    - state: mag-unshaded-4
+    - state: mag-unshaded-1
       map: [ "enum.GunVisualLayers.MagUnshaded" ]
       shader: unshaded
   - type: Item
@@ -23,7 +23,7 @@
     - SemiAuto
     - FullAuto
     - Burst
-    burstCooldown: 0.5
+    burstCooldown: 0.6
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
   - type: MagazineAmmoProvider
@@ -34,12 +34,17 @@
         startingItem: G11Battery
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
         whitelist:
           tags:
           - G11Magazine
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: _Viva/Objects/Weapons/ksm-5000.rsi
   - type: StaticPrice
     price: 1500
   - type: ContainerContainer

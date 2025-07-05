@@ -54,6 +54,7 @@ namespace Content.IntegrationTests.Tests
         {
             "Dev",
             "TestTeg",
+            "TestHFR", // Funky - HFR
             "Fland",
             "Meta",
             "Packed",
@@ -90,7 +91,8 @@ namespace Content.IntegrationTests.Tests
             "Elkridge",
             "Convex",
             "Relic",
-            "Resort"
+            "Resort",
+            "dm01-entryway"
         };
 
         /// <summary>

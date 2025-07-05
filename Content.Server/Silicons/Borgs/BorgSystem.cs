@@ -7,6 +7,7 @@ using Content.Server.Hands.Systems;
 using Content.Server.PowerCell;
 using Content.Shared.Alert;
 using Content.Shared.Database;
+using Content.Shared.Hands.Components;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Item.ItemToggle.Components;

@@ -18,6 +18,8 @@
   - Service
   - External
   - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -28,7 +30,7 @@
 - type: startingGear
   id: SecurityOfficerGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
+  # eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetAltSecurityRegular # Goobstation
     pocket1: WeaponPistolMk58
   storage:
@@ -36,3 +38,4 @@
     - Flash
     - MagazinePistol
     - SecHypo # Goobstation
+    - CartridgeEmergency

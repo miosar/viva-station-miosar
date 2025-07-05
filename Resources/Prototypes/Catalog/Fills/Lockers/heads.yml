@@ -20,6 +20,7 @@
     - id: SalvageShuttleConsoleCircuitboard
     - id: AstroNavCartridge
     - id: ClothingOuterHardsuitLuxury
+    # Viva
     - id: BookClearance1
 
 - type: entity
@@ -54,6 +55,7 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
+    # Viva
     - id: BookClearance2
 
 # No laser table + Laser table
@@ -134,6 +136,8 @@
     - id: DoorRemoteService
     - id: HoPIDCard
     - id: IDComputerCircuitboard
+    - id: FundingAllocationComputerCircuitboard
+    - id: CargoRequestServiceComputerCircuitboard
     - id: RubberStampApproved
     - id: RubberStampDenied
     - id: RubberStampHop
@@ -142,6 +146,7 @@
     - id: WeaponDisablerPlus # funkystation adding unique hop weapon
     - id: ClothingEyesHudCommand
     - id: PDA_cartridge_case
+    # Viva
     - id: BookClearance2
 
 - type: entity
@@ -168,11 +173,13 @@
     - id: ClothingHandsGlovesColorYellow
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
+    - id: CargoRequestEngineeringComputerCircuitboard
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
     - id: BaseHandheldStationMapPowerCe
     - id: RPD # RPD
+    # Viva
     - id: BookClearance1
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -229,16 +236,19 @@
     - id: HandheldCrewMonitor
     - id: Hypospray
     - id: MedicalTechFabCircuitboard
+    - id: CargoRequestMedicalComputerCircuitboard
     - id: MedkitFilled
     - id: RubberStampCMO
     # Goobstation
-    - id: CloningPodMachineCircuitboard
+    #- id: CloningPodMachineCircuitboard
     - id: MedicalScannerMachineCircuitboard
-    - id: CloningConsoleComputerCircuitboard
+    #- id: CloningConsoleComputerCircuitboard
     - id: BiomassReclaimerMachineCircuitboard
     - id: MedTekCartridge
     # Shitmed
     - id: MedicalBiofabMachineBoard
+    - id: AutoclaveFlatpack # DV
+    # Viva
     - id: BookClearance1
 
 # Hardsuit table, used for suit storage as well
@@ -291,11 +301,13 @@
     - id: HandTeleporter
     - id: ProtolatheMachineCircuitboard
     - id: ResearchComputerCircuitboard
+    - id: CargoRequestScienceComputerCircuitboard
     - id: RubberStampRd
     - id: EncryptionKeyBinary # goobstation - readd the cool binary channel access. fuck you.
     - id: AnomalyLocator # GoobStation - adding anomaly locator to the RD locker to reduce the amount of anoms that crit
     - id: CigarCase
       prob: 0.15 # GoobStation - RD needs cigs for uhh... science...
+    # Viva
     - id: BookClearance1
 
 # Hardsuit table, used for suit storage as well
@@ -355,9 +367,11 @@
     - id: HoloprojectorSecurity
     - id: RubberStampHos
     - id: SecurityTechFabCircuitboard
+    - id: CargoRequestSecurityComputerCircuitboard
     - id: WeaponDisabler
     - id: WantedListCartridge
     - id: DrinkHosFlask
+    # Viva
     - id: BookClearance2
 
 # Hardsuit table, used for suit storage as well

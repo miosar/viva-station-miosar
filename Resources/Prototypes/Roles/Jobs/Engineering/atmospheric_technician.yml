@@ -23,10 +23,11 @@
 - type: startingGear
   id: AtmosphericTechnicianGear
   equipment:
-    eyes: ClothingEyesGlassesMeson
+#    eyes: ClothingEyesGlassesMeson
     id: AtmosPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
+    shoes: ClothingShoesBootsWork
   #storage:
     #back:
     #- Stuff

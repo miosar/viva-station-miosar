@@ -20,6 +20,7 @@
   - type: Speech
     speechVerb: Vox
     speechSounds: Vox
+    allowedEmotes: ['Chitter', 'Coo', 'Hiss', 'Caw']
   - type: TypingIndicator
     proto: vox
   - type: Vocal
@@ -118,6 +119,7 @@
       shader: unshaded
       visible: false
   - type: Inventory
+    templateId: vox
     speciesId: vox
     displacements:
       jumpsuit:
@@ -155,6 +157,24 @@
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
             state: shoes
+  - type: Hands
+    leftHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_l
+    rightHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_r
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - AnomalyHost
+    - VoxEmotes
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -203,3 +223,14 @@
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
             state: shoes
+  - type: Hands
+    leftHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_l
+    rightHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_r

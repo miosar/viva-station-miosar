@@ -31,6 +31,8 @@
   - External
   - Detective
   - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -42,7 +44,7 @@
 - type: startingGear
   id: HoSGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
+    #eyes: ClothingEyesGlassesSecurity
     id: HoSPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity
@@ -52,3 +54,4 @@
     - Flash
     - MagazinePistol
     - SecHypo # Goobstation
+    - CartridgeEmergency

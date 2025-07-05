@@ -118,6 +118,7 @@
   - type: LightningTarget
     priority: 2
     lightningExplode: false
+  - type: SurgeryContaminable # DeltaV - surgery cross contamination
 
 # Used for mobs that can enter combat mode and can attack.
 - type: entity
@@ -147,7 +148,7 @@
     currentTemperature: 310.15
     coldDamage: #per second, scales with temperature & other constants
       types:
-        Cold : 0.1
+        Cold : 0.5
     specificHeat: 42
     heatDamage: #per second, scales with temperature & other constants
       types:
@@ -159,7 +160,7 @@
     sweatHeatRegulation: 2000
     shiveringHeatRegulation: 2000
     normalBodyTemperature: 310.15
-    thermalRegulationTemperatureThreshold: 25
+    thermalRegulationTemperatureThreshold: 2
   - type: MovedByPressure
 
 # Used for mobs that require regular atmospheric conditions.
@@ -175,7 +176,7 @@
     sweatHeatRegulation: 500
     shiveringHeatRegulation: 500
     normalBodyTemperature: 310.15
-    thermalRegulationTemperatureThreshold: 25
+    thermalRegulationTemperatureThreshold: 2
   - type: Temperature
     heatDamageThreshold: 325
     coldDamageThreshold: 260

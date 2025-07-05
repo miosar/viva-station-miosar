@@ -20,6 +20,8 @@
   - External
   - Detective
   - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -30,7 +32,7 @@
 - type: startingGear
   id: WardenGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
+    #eyes: ClothingEyesGlassesSecurity
     id: WardenPDA
     ears: ClothingHeadsetAltSecurityRegular # Goobstation
     pocket1: WeaponPistolMk58
@@ -39,3 +41,4 @@
     - Flash
     - MagazinePistol
     - SecHypo # Goobstation
+    - autoInjectorCartridgeCaseSoft

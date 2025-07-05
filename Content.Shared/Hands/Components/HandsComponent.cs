@@ -1,5 +1,6 @@
 using Content.Shared.DisplacementMap;
 using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -78,14 +79,35 @@ public sealed partial class HandsComponent : Component
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan ThrowCooldown = TimeSpan.FromSeconds(0.5f);
 
+    /// <summary>
+    ///     Fallback displacement map applied to all sprites in the hand, unless otherwise specified
+    /// </summary>
     [DataField]
     public DisplacementData? HandDisplacement;
+
+    /// <summary>
+    ///     If defined, applies to all sprites in the left hand, ignoring <see cref="HandDisplacement"/>
+    /// </summary>
+    [DataField]
+    public DisplacementData? LeftHandDisplacement;
+
+    /// <summary>
+    ///     If defined, applies to all sprites in the right hand, ignoring <see cref="HandDisplacement"/>
+    /// </summary>
+    [DataField]
+    public DisplacementData? RightHandDisplacement;
 
     /// <summary>
     /// If false, hands cannot be stripped, and they do not show up in the stripping menu.
     /// </summary>
     [DataField]
     public bool CanBeStripped = true;
+
+    /// <summary>
+    /// Viva - This is a whitelist for what types of entities can be held in this hand.
+    /// The whitelist is pulled from elsewhere and stored here ease of access.
+    ///</summary>
+    public EntityWhitelist? HandWhitelist;
 }
 
 [Serializable, NetSerializable]

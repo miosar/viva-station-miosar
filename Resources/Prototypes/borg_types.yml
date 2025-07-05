@@ -10,6 +10,7 @@
   moduleWhitelist:
     tags:
     - BorgModuleGeneric
+    - BorgModuleScience #until sciborgs are added
 
   defaultModules:
   - BorgModuleTool
@@ -169,6 +170,12 @@
     - BorgModuleGeneric
     - BorgModuleMedical
 
+  #Viva hand whitelist
+  handWhitelist:
+    tags:
+    - Organ
+    - Trash  
+
   defaultModules:
   - BorgModuleTreatment
   - BorgModuleDefibrillator  
@@ -270,7 +277,7 @@
   #chassisLawset:
 
   # Visual
-  inventoryTemplateId: borgShort
+  inventoryTemplateId: borgTall
   spriteBodyState: science
   spriteHasMindState: science_e
   spriteNoMindState: science_e_r

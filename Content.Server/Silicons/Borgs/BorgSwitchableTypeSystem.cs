@@ -53,6 +53,9 @@ public sealed class BorgSwitchableTypeSystem : SharedBorgSwitchableTypeSystem
 
             _borgSystem.SetModuleWhitelist(chassisEnt, prototype.ModuleWhitelist);
 
+            //Viva Configure borg hand whitelist
+            _borgSystem.SetHandWhitelist(chassisEnt, prototype.HandWhitelist);
+
             foreach (var module in prototype.DefaultModules)
             {
                 var moduleEntity = Spawn(module);

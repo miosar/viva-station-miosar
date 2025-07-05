@@ -219,15 +219,6 @@
         color: "#313131"
 
 - type: entity
-  id: BaseBorgModuleScience
-  parent: BaseBorgModule
-  abstract: true
-  components:
-  - type: Tag
-    tags:
-    - BorgModuleScience
-
-- type: entity
   id: BaseBorgModuleSyndicate
   parent: BaseBorgModule
   abstract: true

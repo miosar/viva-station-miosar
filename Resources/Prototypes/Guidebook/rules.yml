@@ -511,3 +511,10 @@
   priority: 9
   text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva9.xml"
 
+- type: guideEntry
+  id: RuleViva10
+  name: guide-entry-rules-viva10
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva10.xml"
+

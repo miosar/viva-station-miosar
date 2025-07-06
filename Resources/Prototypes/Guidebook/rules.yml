@@ -475,3 +475,39 @@
   ruleEntry: true
   priority: 4
   text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva4.xml"
+  
+- type: guideEntry
+  id: RuleViva5
+  name: guide-entry-rules-viva5
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva5.xml"
+
+- type: guideEntry
+  id: RuleViva6
+  name: guide-entry-rules-viva6
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva6.xml"
+
+- type: guideEntry
+  id: RuleViva7
+  name: guide-entry-rules-viva7
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva7.xml"
+  
+- type: guideEntry
+  id: RuleViva8
+  name: guide-entry-rules-viva8
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva8.xml"
+
+- type: guideEntry
+  id: RuleViva9
+  name: guide-entry-rules-viva9
+  ruleEntry: true
+  priority: 9
+  text: "/ServerInfo/_Viva/Guidebook/ServerRules/RuleViva9.xml"
+

@@ -18,5 +18,12 @@
   - type: PowerCell
   - type: Riggable
   - type: Sprite
-    sprite: Objects/Fun/bikehorn.rsi
-    state: icon
+    sprite: _Viva/Objects/Power/ksm-5000_mag.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: ksmmag
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+      shader: unshaded
+  - type: Appearance
+  - type: PowerCellVisuals

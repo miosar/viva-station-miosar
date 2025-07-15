@@ -9,7 +9,7 @@
     - Cartridge
     - CartridgeLaser
   - type: CartridgeAmmo
-    proto: BulletEnergyGunLaser
+    proto: BulletLaser
     deleteOnSpawn: true
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Ammunition/Casings/laser_casing.rsi

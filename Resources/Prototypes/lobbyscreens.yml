@@ -54,12 +54,10 @@
   id: doomDeed
   background: /Textures/LobbyScreens/doomdeed.webp
 
-- type: lobbyBackground
+#- type: lobbyBackground
+#  id: rats
+#  background: /Textures/LobbyScreens/rats.webp
 
-- type: lobbyBackground
-  id: rats
-  background: /Textures/LobbyScreens/rats.webp
-
-- type: lobbyBackground
-  id: cirnoStation
-  background: /Textures/LobbyScreens/cirnostation.webp
+#- type: lobbyBackground
+#  id: cirnoStation
+#  background: /Textures/LobbyScreens/cirnostation.webp

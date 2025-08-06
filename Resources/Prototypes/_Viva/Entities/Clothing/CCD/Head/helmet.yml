@@ -20,5 +20,5 @@
   - type: TemperatureProtection
     heatingCoefficient: 0.005
     coolingCoefficient: 0.005
-  - type: FireProtection
+  - type: FireResistance
     reduction: 0.2

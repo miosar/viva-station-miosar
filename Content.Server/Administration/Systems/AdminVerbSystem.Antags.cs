@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 using Content.Server._Viva.GameTicking.Rules.Components;
-=======
 // SPDX-FileCopyrightText: 2022 Visne <39844191+Visne@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2022 drakewill-CRL <46307022+drakewill-CRL@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
@@ -41,7 +40,6 @@ using Content.Server._Viva.GameTicking.Rules.Components;
 //
 // SPDX-License-Identifier: MIT
 
->>>>>>> 4d0851958bd0aef48ea9da388435214fd11b0896
 using Content.Server._DV.CosmicCult.Components; // DeltaV
 using Content.Server.Administration.Commands;
 using Content.Server.Antag;

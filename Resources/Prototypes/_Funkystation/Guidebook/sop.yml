@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # SPDX-FileCopyrightText: 2024 DevilishMilk <bluscout78@yahoo.com>
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
@@ -9,7 +8,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
->>>>>>> 4d0851958bd0aef48ea9da388435214fd11b0896
 - type: guideEntry
   id: SOP101
   name: SOP 101
@@ -46,7 +44,7 @@
 - type: guideEntry
   id: CommandSOPClearanceLevel1
   name: Clearance Level 1
-  text: "/ServerInfo/_Viva/Guidebook/CommandHidden/ClearanceLevel1.xml" 
+  text: "/ServerInfo/_Viva/Guidebook/CommandHidden/ClearanceLevel1.xml"
 
 - type: guideEntry
   id: CommandSOPClearanceLevel2

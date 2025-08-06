@@ -17,7 +17,7 @@
     quickEquip: false
     slots:
     - Back
-    - suitStorage
+    - backStorage
   - type: AmmoCounter
   - type: Gun
     fireRate: 0.7
@@ -130,7 +130,7 @@
     quickEquip: false # Frontier
     slots: # Frontier
     # - Back # Frontier
-    - suitStorage #Frontier
+    - backStorage #Frontier
     sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
   - type: Gun
     soundGunshot:

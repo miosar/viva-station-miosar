@@ -105,12 +105,9 @@
     - id: SalvageShuttleConsoleCircuitboard
     - id: AstroNavCartridge
     - id: ClothingOuterHardsuitLuxury
-<<<<<<< HEAD
     # Viva
     - id: BookClearance1
-=======
     - id: ClothingHandsKnuckleDustersQM
->>>>>>> 4d0851958bd0aef48ea9da388435214fd11b0896
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -144,12 +141,8 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
-<<<<<<< HEAD
     # Viva
     - id: BookClearance2
-=======
-    - id: BookCorporateSecrets # funky
->>>>>>> 4d0851958bd0aef48ea9da388435214fd11b0896
 
 # No laser table + Laser table
 - type: entityTable

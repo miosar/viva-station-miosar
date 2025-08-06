@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 // SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 Aidenkrz <aiden@djkraz.com>
@@ -8,10 +7,9 @@
 // SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2025  <td12233a@gmail.com>
 //
 // SPDX-License-Identifier: MIT
-
->>>>>>> 4d0851958bd0aef48ea9da388435214fd11b0896
 using Content.Shared.Alert;
 using Content.Shared.Whitelist;
 using Robust.Shared.Containers;

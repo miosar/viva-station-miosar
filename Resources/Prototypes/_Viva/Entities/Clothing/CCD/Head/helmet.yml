@@ -21,4 +21,4 @@
     heatingCoefficient: 0.005
     coolingCoefficient: 0.005
   - type: FireResistance
-    reduction: 0.2
+    damageCoefficient: 0.2

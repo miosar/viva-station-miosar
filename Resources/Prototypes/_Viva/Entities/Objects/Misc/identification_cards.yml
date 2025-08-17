@@ -9,7 +9,7 @@
     sprite: _Viva/Objects/Misc/id_cards.rsi
     state: ccd
   - type: Access
-    groups:
+    tags:
     - Maintenance
     - External
   - type: IdCard

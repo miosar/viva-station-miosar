@@ -3,7 +3,7 @@
   name: CCD Agent
   antagonist: true
   setPreference: false
-  objectives: roles-antag-time-agent-objective
+  objective: roles-antag-time-agent-objective
 
 - type: startingGear
   id: TimeAgentGear

@@ -2,7 +2,7 @@
   id: LoyaltyImplants
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
-    state: icon
+    state: implanter0
   product: CrateSecurityLoyaltyImplants
   cost: 4000
   category: cargoproduct-category-name-security

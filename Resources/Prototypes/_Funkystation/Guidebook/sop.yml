@@ -29,8 +29,6 @@
   id: CommandSOP
   name: guide-entry-command-sop
   text: "/ServerInfo/Funkystation/Guidebook/Command/CommandStandardOperatingProcedure.xml"
-  children:
-  - CommandTrainingManual
 
 - type: guideEntry
   id: CommandSOPHidden
@@ -77,8 +75,6 @@
   id: SecuritySOP
   name: guide-entry-security-sop
   text: "/ServerInfo/Funkystation/Guidebook/Security/SecurityStandardOperatingProcedure.xml"
-  children:
-  - SecurityTrainingManual
 
 - type: guideEntry
   id: LegalSOP

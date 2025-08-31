@@ -141,7 +141,7 @@
   - type: Pda
     id: NanotrasenRepresentativeIDCard
     penSlot:
-      startingItem: LuxuryPen
+      startingItem: PenCentcom
       priority: -1
       whitelist:
         tags:

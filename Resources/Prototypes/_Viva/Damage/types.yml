@@ -1,5 +1,5 @@
 - type: damageType
   id: Temporal
-  name: Temporal
+  name: damage-type-paracausal
   armorCoefficientPrice: 1
   armorFlatPrice: 1

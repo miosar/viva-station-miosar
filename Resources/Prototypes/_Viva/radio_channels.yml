@@ -1,6 +1,6 @@
 - type: radioChannel
   id: CCDRadio
-  name: CCD
+  name: radio-channel-ccd
   keycode: "k"
   frequency: 3446
   color: "#ffbd00"
